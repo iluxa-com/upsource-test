@@ -7,8 +7,8 @@ import java.util.regex.Pattern;
  * @since 16/03/15 16:26
  */
 public class Test1 {
-  void test () {
-    String s = "\\d+([^\\s]+)";
+  void test (String s) {
     Pattern pattern = Pattern.compile("\\d+([^\\s]+)");
+    System.out.println(s);
   }
 }
