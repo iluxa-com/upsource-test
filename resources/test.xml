@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <bindings xmlns="http://java.sun.com/xml/ns/jaxb" node="//parent/child::grandchild"/>
+</root>
