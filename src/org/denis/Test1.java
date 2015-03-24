@@ -2,7 +2,6 @@ package org.denis;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpressionException;
-import java.nio.charset.Charset;
 import java.util.regex.Pattern;
 
 public class Test1 {
