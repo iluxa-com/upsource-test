@@ -5,4 +5,14 @@
 
     <!--regexp inside xml injection-->
     <element xmlns="http://jboss.org/xml/ns/javax/validation/mapping" name="regexp">([^\\s]+)</element>
+
+    <!--css inside xml injection-->
+    <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
+        p::first-letter { color: red}
+    </style>
+
+    <!--js inside xml injection-->
+    <script xmlns="http://www.w3.org/1999/xhtml">
+        alert('hello')
+    </script>
 </root>
