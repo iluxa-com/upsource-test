@@ -8,11 +8,16 @@
 
     <!--css inside xml injection-->
     <style xmlns="http://www.w3.org/1999/xhtml" type="text/css">
-        p::first-letter { color: red}
+        p::first-letter { color: red }
     </style>
 
     <!--js inside xml injection-->
     <script xmlns="http://www.w3.org/1999/xhtml">
         alert('hello')
     </script>
+
+    <!--CssLanguageInjector-->
+    <outer xmlns:n="http://xmlns.jcp.org/jsf/html">
+        <n:inner style="color: blue"/>
+    </outer>
 </root>
